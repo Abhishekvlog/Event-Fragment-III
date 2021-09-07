@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".PriceDetailsFragment">
+
+    <EditText
+        android:id="@+id/EtCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:hint="Currency"
+        android:layout_marginStart="130sp"/>
+    <EditText
+        android:id="@+id/Etprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:hint="Price"
+        android:layout_marginStart="130sp"/>
+    <Button
+        android:id="@+id/BtnPriceDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To price Detail"
+        android:layout_marginStart="120sp"
+        android:layout_marginTop="10sp"/>
+</LinearLayout>
